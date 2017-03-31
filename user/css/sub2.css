@@ -1,0 +1,62 @@
+.title {
+    width: 100px;
+}
+
+input {
+    margin: 0;
+}
+
+textarea {
+    width: 550px;
+    height: 300px;
+}
+
+.cointext {
+    width: 150px;
+    height: 20px;
+    margin-bottom: 13px !important;
+}
+
+.coin {
+    display: inline-block;
+    margin-left: -8px;
+    margin-top: -18px;
+}
+
+.coincou {
+    color: red;
+}
+
+.matchmap {
+    float: left;
+    vertical-align: middle;
+}
+
+.map {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.middle {
+    padding-top: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.maptext {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: inline-block;
+    width: 300px;
+    margin: 5px 0;
+}
+
+.bonus input {
+    width: 150px;
+}

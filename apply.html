@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 实例 - 偏移列</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="user/css/global.css">
+    <link rel="stylesheet" href="user/css/sub2.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <a class="logo" href="#">公司Logo</a>
+            <div class="nav-right">
+                <span class="nav-text">Hi </span>
+                <a class="nav-user" href="#">.JET</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span2">
+                <div class="accordion" id="accordion2">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                <img src="img/home.png" class="home icon">首页</a>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="nav nav-list">
+                                    <li><a href="#">首页1</a></li>
+                                    <li><a href="#">首页2</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                <img src="img/user.png" class="user icon">用户</a>
+                        </div>
+                        <div id="collapseTwo" class="accordion-body collapse">
+                            <div class="nav nav-list">
+                                <li><a href="">直播列表</a></li>
+                                <li><a href="">直播预约</a></li>
+                                <li class="divider"></li>
+                                <li><a href="">集点推荐</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">来战话题</a></li>
+                                <li class="divider"></li>
+                                <li><a href="fengyunbei.html">风云杯</a></li>
+                                <li><a href="">赛事视频</a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                <img src="img/limit.png" class="limit icon">权限</a>
+                        </div>
+                        <div id="collapseThree" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="nav nav-list">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                <img src="img/client.png" class="client icon">客户端</a>
+                        </div>
+                        <div id="collapseFour" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="nav nav-list">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+                                <img src="img/set.png" class="set icon">设置</a>
+                        </div>
+                        <div id="collapseFive" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="nav nav-list">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+                                <img src="img/help.png" class="help icon">在线帮助</a>
+                        </div>
+                        <div id="collapseSix" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                                <div class="nav nav-list">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="span10">
+                <form class="form-inline">
+                    <fieldset>
+                        <legend>报名</legend>
+                        <form action="">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td class="title">赛区</td>
+                                    <td>
+                                        <div class="control-group cont">
+                                            <div class="controls">
+                                                <label class="checkbox">
+                                                    <input type="checkbox"> 穿越火线
+                                                    <a href="#"> [选择]</a>
+                                                </label>
+                                            </div>
+                                        </div> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="title">区域</td>
+                                    <td class="cont">
+                                        <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn">
+                                            电信-广东-区
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                           <li>...</li>
+                                        </ul>
+                                </tr>
+                                <tr>
+                                    <td class="title">队伍人数</td>
+                                    <td  class="cont">
+                                        <input type="number" value="1"></input>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="title">赛事名称</td>
+                                    <td><input type="text" placeholder="如：2017第二周周赛" class="cont"></td>
+                                </tr>
+                                <tr>
+                                    <td class="title">报名时间</td>
+                                    <td class="cont">
+                                        <!--开始时间 <input type="date"> 结束时间 <input type="date">-->
+                                        <div class="form-group">
+                                            <label for="startTime">开始时间</label>
+                                            <input type="date" class="form-control" id="startTime">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="endTime">结束时间</label>
+                                            <input type="date" class="form-control" id="endTime">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="title">奖金池</td>
+                                    <td class="cont bonus">
+                                        <div class="form-group">
+                                            <label for="one">冠军</label>
+                                            <input type="text" class="form-control" id="one"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="two">亚军</label>
+                                            <input type="text" class="form-control" id="two"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="three">季军</label>
+                                            <input type="text" class="form-control" id="three"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="four">第4名</label>
+                                            <input type="text" class="form-control" id="four"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="five">第5名</label>
+                                            <input type="text" class="form-control" id="five"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="six">第6名</label>
+                                            <input type="text" class="form-control" id="six"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="seven">第7名</label>
+                                            <input type="text" class="form-control" id="seven"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="eight">第8名</label>
+                                            <input type="text" class="form-control" id="eight"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nine">第9名</label>
+                                            <input type="text" class="form-control" id="nine"> 元
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="ten">第10名</label>
+                                            <input type="text" class="form-control" id="ten"> 元
+                                        </div>
+                                </tr>
+                                <tr>
+                                    <td class="title">报名条件</td>
+                                    <td class="cont">
+                                        <div class="btn-group">
+                                            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                                请选择属性
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                    <li><a tabindex="-1" href="#">Action</a></li>
+                                                    <li><a tabindex="-1" href="#">Another action</a></li>
+                                                    <li><a tabindex="-1" href="#">Something else here</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a tabindex="-1" href="#">Separated link</a></li>
+                                            </ul>
+                                        </div>
+                                        >=
+                                        <div class="btn-group">
+                                            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                                选择条件
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                    <li><a tabindex="-1" href="#">Action</a></li>
+                                                    <li><a tabindex="-1" href="#">Another action</a></li>
+                                                    <li><a tabindex="-1" href="#">Something else here</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a tabindex="-1" href="#">Separated link</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td class="title">报名费</td>
+                                    <td>
+                                        <input type="text" class="cointext"><i class="icon-align-justify coin"></i>来战币 <br>
+                                        返现 <span class="coincou">0</span> 来战币
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td class="title">比赛地图</td>
+                                    <td class="cont matchmap">
+                                        <img src="" alt="" class="map">
+                                        <div class="middle">
+                                            <div class="maptext">
+                                                最佳尺寸 <br>
+                                                999px*999px
+                                            </div>
+                                            <button type="text" class="btn">浏览...</button>
+                                        </div>
+                                        <button class="btn">+</button>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td class="title">赛制</td>
+                                    <td><textarea rows="50" cols="600" class="cont"></textarea></td>
+                                </tr>
+                            </table>
+                            <button type="submit" class="btn">提交</button>
+                        </form>
+                        
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>

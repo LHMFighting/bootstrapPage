@@ -1,0 +1,72 @@
+.operation {
+    float: right;
+    width: 110px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.operation * {
+    margin: 5px 0;
+    width: 105px;
+    height: 28px;
+    font-size: 10px;
+    padding: 1px 4px;
+}
+
+.operation img {
+    width: 11px;
+    height: 11px;
+    padding: 1px;
+}
+
+.operation .icon-align-justify {
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.operation .opttop {
+    margin-top: -13px;
+    margin-right: -16px;
+}
+
+.operation .optbom {
+    margin-top: -13px;
+    margin-right: -29px;
+    margin-left: 9px;
+}
+
+.filtrate {
+    margin-top: 35px;
+}
+
+.table-bordered {
+    margin-bottom: 120px;
+}
+
+.apply {
+    margin-left: 5px;
+    height: 25px;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.form-search {
+    margin-bottom: 12px;
+}
+
+.form-search input {
+    margin-bottom: 0;
+}
+
+.pagination {
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+td a.btn {
+    margin-left: 5px;
+}
